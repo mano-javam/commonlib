@@ -59,3 +59,6 @@ addopts = "--cov --cov-report html --cov-report term-missing --cov-fail-under 95
 [tool.yapf]
 blank_line_before_nested_class_or_def = true
 column_limit = 88
+[tool.setuptools]
+packages = ["commonlib"]
+package-dir = {"" = "src"}
