@@ -62,3 +62,6 @@ column_limit = 88
 [tool.setuptools]
 packages = ["commonlib"]
 package-dir = {"" = "src"}
+[tool.setuptools.packages]
+find = {}
+find = {namespaces = false}
