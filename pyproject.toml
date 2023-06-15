@@ -62,5 +62,3 @@ column_limit = 88
 [tool.setuptools]
 packages = ["commonlib"]
 package-dir = {"" = "src"}
-[options.packages.find]
-where=src
